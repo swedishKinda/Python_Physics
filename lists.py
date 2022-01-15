@@ -18,3 +18,13 @@ print(customer_data)
 customer_data_final = customer_data + \
     [["Amit", "Large", True], ["Karim", "X-Large", False]]
 print(customer_data_final)
+
+temperatures = [1, 2, 3, 4, 5, 6]
+temperatures_adjusted = [temp + 20 for temp in temperatures]
+
+temperatures = [1, 2, 3, 4, 5, 6]
+temperatures_adjusted = [(temp - 32) * 5/9 for temp in temperatures]
+
+xy = [[1, 3], [2, 4], [3, 3], [4, 2]]
+z = [x * y for (x, y) in xy]
+print(z)
