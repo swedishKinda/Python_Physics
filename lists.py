@@ -28,3 +28,12 @@ temperatures_adjusted = [(temp - 32) * 5/9 for temp in temperatures]
 xy = [[1, 3], [2, 4], [3, 3], [4, 2]]
 z = [x * y for (x, y) in xy]
 print(z)
+
+# exercise
+
+capitals = ["Santiago", "Paris", "Copenhagen"]
+countries = ["Chile", "France", "Denmark"]
+
+combined = zip(capitals, countries)
+locations = [capital + ", " + countries for (capital, countries) in combined]
+print(locations)
