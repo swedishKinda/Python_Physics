@@ -37,5 +37,5 @@ plt.title("Types of Limes Sold")
 
 plt.subplots_adjust(wspace=.3)
 
-plt.show()
 plt.savefig("Monthly_visits_and_limes_sold.png")
+plt.show()
